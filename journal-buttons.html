@@ -1,0 +1,634 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title> Elements - Buttons</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="//fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,900%7CMonsieur+La+Doulaise&amp;subset=latin" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/extras.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="assets/css/journal.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico"> </head>
+
+<body class="pace-on pace-minimal layout-boxed" style="background-image: url(assets/images/journal/bg-10.jpg);
+background-color: #0a0a0a;
+background-repeat: no-repeat;
+background-position: top left;
+background-attachment: fixed;">
+    <div class="pace-overlay"></div>
+    <div class="menu navbar navbar-static-top header-logo-center-menu-below oxy-mega-menu" id="masthead">
+        <div class="logo-navbar container-logo">
+            <div class="container-fullwidth">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-target=".main-navbar" data-toggle="collapse" type="button"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a class="navbar-brand" href="journal-index.html"><img alt="Lambda Wordpress Bootstrap Theme" src="assets/images/journal/lambda-journal1.png"></a>
+                    <div class="logo-sidebar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fullwidth">
+            <div class="nav-container clearfix">
+                <nav class="collapse navbar-collapse main-navbar">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav" id="menu-main-menu">
+                            <li class=" "> <a href="/journal-index.html">Home</a> </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Single Post</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-post.html">Standard Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-quote-post.html">Quote Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-gallery-post.html">Gallery Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-video-post.html">Video Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-audio-post.html">Audio Post</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Pages</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-404.html">404 - Not Found</a> </li>
+                                    <li class="menu-item"> <a href="/journal-author.html">Author Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Tag Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Category Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Archive Page</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Categories</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-index.html">Education</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Tech</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Food & Health</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Fashion</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Travel</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Elements</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-basic-type.html">Basic Type</a> </li>
+                                    <li class="menu-item"> <a href="/journal-buttons.html">Buttons</a> </li>
+                                    <li class="menu-item"> <a href="/journal-blockquotes.html">Blockquotes</a> </li>
+                                    <li class="menu-item"> <a href="/journal-font-icons.html">Font Icons</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" "> <a href="/journal-contact.html">Contact</a> </li>
+                        </ul>
+                    </div>
+                    <div class="menu-sidebar">
+                        <div class="sidebar-widget widget_search">
+                            <h3 class="sidebar-header">Search Title</h3>
+                            <form action="journal-index.html" id="searchform" method="get" name="searchform">
+                                <div class="input-group">
+                                    <input class="form-control" id="s" name="s" placeholder="Search" type="text" value=""> <span class="input-group-btn">
+                                    <button class="btn btn-primary" id="searchsubmit" type="submit" value="Search">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span> </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="content" role="main">
+        <article>
+            <section class="section section-text-shadow section-inner-shadow">
+                <div class="background-media" style="background-image: url(assets/images/journal/p071.jpg); background-repeat:no-repeat; background-size:cover; background-attachment:fixed; background-position: 50% 0%;"> </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center element-top-100 element-bottom-100 text-light super hairline">
+                        Buttons
+                    </h1> </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center element-top-70 element-bottom-20 normal hairline">
+                        Normal buttons
+                    </h1> </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Small
+                    buttons</h3><a class="btn btn-default btn-sm" href="#" target="_self">Default button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-sm" href="#" target="_self">Primary button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-sm" href="#" target="_self">Info button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-sm" href="#" target="_self">Success button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-sm" href="#" target="_self">Link button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-sm" href="#" target="_self">Danger button</a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">
+                    Default buttons</h3><a class="btn btn-default btn-normal" href="#" target="_self">Default button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-normal" href="#" target="_self">Primary button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-normal" href="#" target="_self">Info button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-normal" href="#" target="_self">Success button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-normal" href="#" target="_self">Link button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-normal" href="#" target="_self">Danger button</a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Large
+                    buttons</h3><a class="btn btn-default btn-lg" href="#" target="_self">Default button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-lg" href="#" target="_self">Primary button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-lg" href="#" target="_self">Info button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-lg" href="#" target="_self">Success button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-lg" href="#" target="_self">Link button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-lg" href="#" target="_self">Danger button</a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-70"></div>
+                                <div class="visible-sm element-height-70"></div>
+                                <div class="visible-md element-height-70"></div>
+                                <div class="visible-lg element-height-70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="background-overlay grid-overlay-10" style="background-color: rgba(232,216,201,0.1);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center element-top-70 element-bottom-20 normal hairline">
+                        With Icons
+                    </h1> </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="background-overlay grid-overlay-10" style="background-color: rgba(232,216,201,0.1);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Small
+                    buttons</h3><a class="btn btn-default btn-sm btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-sm btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android" data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-sm btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-sm btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-sm btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-sm btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="none"></i></a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">
+                    Default buttons</h3><a class="btn btn-default btn-normal btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-normal btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-normal btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-normal btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-normal btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-normal btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="none"></i></a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Large
+                    buttons</h3><a class="btn btn-default btn-lg btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-lg btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-lg btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-lg btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-lg btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-lg btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="none"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-70"></div>
+                                <div class="visible-sm element-height-70"></div>
+                                <div class="visible-md element-height-70"></div>
+                                <div class="visible-lg element-height-70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center element-top-70 element-bottom-20 normal hairline">
+                        With Icons & animations
+                    </h1> </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Small
+                    buttons</h3><a class="btn btn-default btn-sm btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="bounce"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-sm btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android" data-animation="bounceOut"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-sm btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="fadeIn"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-sm btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="fadeInDown"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-sm btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="bounceInUp"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-sm btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="hinge"></i></a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">
+                    Default buttons</h3><a class="btn btn-default btn-normal btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="shake"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-normal btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android"
+                    data-animation="swing"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-normal btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="tada"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-normal btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="tada"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-normal btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="wobble"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-normal btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="wobble"></i></a> </div>
+                        <div class="col-md-4 text-center">
+                            <h3 class="element-top-70 element-bottom-20 normal bold">Large
+                    buttons</h3><a class="btn btn-default btn-lg btn-icon-right" href="#" target="_self">Default button <i class="fa fa-gift"
+                    data-animation="bounce"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-primary btn-lg btn-icon-right" href="#" target="_self">Primary button <i class="fa fa-android"
+                    data-animation="shake"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-info btn-lg btn-icon-right" href="#" target="_self">Info button <i class="fa fa-gear"
+                    data-animation="shake"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-success btn-lg btn-icon-right" href="#" target="_self">Success button <i class=
+                    "fa fa-shopping-cart" data-animation="swing"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-link btn-lg btn-icon-right" href="#" target="_self">Link button <i class="fa fa-apple"
+                    data-animation="tada"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-30"></div>
+                                <div class="visible-sm element-height-30"></div>
+                                <div class="visible-md element-height-30"></div>
+                                <div class="visible-lg element-height-30"></div>
+                            </div> <a class="btn btn-danger btn-lg btn-icon-right" href="#" target="_self">Danger button <i class="fa fa-heart"
+                    data-animation="wobble"></i></a>
+                            <div class="divider-wrapper">
+                                <div class="visible-xs element-height-70"></div>
+                                <div class="visible-sm element-height-70"></div>
+                                <div class="visible-md element-height-70"></div>
+                                <div class="visible-lg element-height-70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer id="footer">
+            <section class="section">
+                <div class="container">
+                    <div class="row element-top-40 element-bottom-40 footer-columns-4">
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_text" id="text-2">
+                                <h3 class="sidebar-header">About Us</h3>
+                                <div class="textwidget">
+                                    <p>Create stunning pages with our <strong>powerful</strong> admin panel. Functionality and usability combine to let you <strong>design</strong> your pages without any coding.</p>Get <strong>Lambda</strong> and start right
+                                    away. </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_recent_entries">
+                                <h3 class="sidebar-header">Recent posts</h3>
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="Put Your Head on My Shoulders"> <img alt="p11" height="150" src="assets/images/journal/p111-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="Put Your Head on My Shoulders">Put Your Head on My
+                                Shoulders</a> <small class="post-date">September 25, 2014</small> </li>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="A Flight to Remember"> <img alt="p041" height="150" src="assets/images/journal/p041-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="A Flight to Remember">A Flight to Remember</a> <small class="post-date">September 25, 2014</small> </li>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="The Beast with a Billion Backs"> <img alt="p01" height="150" src="assets/images/journal/p011-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="The Beast with a Billion Backs">The Beast with a Billion
+                                Backs</a> <small class="post-date">September 25, 2014</small> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_categories">
+                                <h3 class="sidebar-header">Categories</h3>
+                                <ul>
+                                    <li> <a href="journal-index.html">Education</a> </li>
+                                    <li> <a href="journal-index.html">Fashion</a> </li>
+                                    <li> <a href="journal-index.html">Food &amp; Health</a> </li>
+                                    <li> <a href="journal-index.html">Inspirational</a> </li>
+                                    <li> <a href="journal-index.html">Tech</a> </li>
+                                    <li> <a href="journal-index.html">Travel</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_archive" id="archives-4">
+                                <h3 class="sidebar-header">Archives</h3>
+                                <ul>
+                                    <li> <a href='journal-index.html'>September 2014</a> </li>
+                                    <li> <a href='journal-index.html'>August 2014</a> </li>
+                                    <li> <a href='journal-index.html'>July 2014</a> </li>
+                                    <li> <a href='journal-index.html'>June 2014</a> </li>
+                                    <li> <a href='journal-index.html'>May 2014</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section subfooter">
+                <div class="container">
+                    <div class="row element-top-10 element-bottom-10 footer-columns-2">
+                        <div class="col-sm-6">
+                            <div class="sidebar-widget widget_text">
+                                <div class="textwidget"> Copyright © 2015 - Lamda Wordpress theme </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="sidebar-widget widget_social">
+                                <ul class="unstyled inline social-icons social-simple social-normal">
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-linkedin"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-dribbble"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <a class="go-top go-top-circle" href="javascript:void(0)"> <i class="fa fa-angle-up"></i> </a>
+    <script type="text/javascript">
+        var oxyThemeData = {
+            navbarHeight: 120,
+            navbarScrolled: 120,
+            navbarScrolledPoint: 62,
+            menuClose: 'off',
+            scrollFinishedMessage: 'No more items to load.',
+            hoverMenu:
+            {
+                hoverActive: false,
+                hoverDelay: 200,
+                hoverFadeDelay: 200
+            },
+            siteLoader: 'on'
+        };
+    </script>
+    <script src="assets/js/theme.min.js"></script>
+    <!-- load contact form js -->
+    <script src="assets/js/contact.min.js"></script>
+</body>
+
+</html>

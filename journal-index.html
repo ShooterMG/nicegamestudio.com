@@ -1,0 +1,579 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title> Blog</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="//fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,900%7CMonsieur+La+Doulaise&amp;subset=latin" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/extras.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="assets/css/journal.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico"> </head>
+
+<body class="pace-on pace-minimal layout-boxed" style="background-image: url(assets/images/journal/bg-10.jpg);
+background-color: #0a0a0a;
+background-repeat: no-repeat;
+background-position: top left;
+background-attachment: fixed;">
+    <div class="pace-overlay"></div>
+    <div class="menu navbar navbar-static-top header-logo-center-menu-below oxy-mega-menu" id="masthead">
+        <div class="logo-navbar container-logo">
+            <div class="container-fullwidth">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-target=".main-navbar" data-toggle="collapse" type="button"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a class="navbar-brand" href="journal-index.html"><img alt="Lambda Wordpress Bootstrap Theme" src="assets/images/journal/lambda-journal1.png"></a>
+                    <div class="logo-sidebar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fullwidth">
+            <div class="nav-container clearfix">
+                <nav class="collapse navbar-collapse main-navbar">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav" id="menu-main-menu">
+                            <li class="active "> <a href="/journal-index.html">Home</a> </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Single Post</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-post.html">Standard Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-quote-post.html">Quote Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-gallery-post.html">Gallery Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-video-post.html">Video Post</a> </li>
+                                    <li class="menu-item"> <a href="/journal-audio-post.html">Audio Post</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Pages</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-404.html">404 - Not Found</a> </li>
+                                    <li class="menu-item"> <a href="/journal-author.html">Author Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Tag Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Category Page</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Archive Page</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Categories</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-index.html">Education</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Tech</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Food & Health</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Fashion</a> </li>
+                                    <li class="menu-item"> <a href="/journal-index.html">Travel</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="/#">Elements</a>
+                                <ul class="dropdown-menu dropdown-menu-left ">
+                                    <li class="menu-item"> <a href="/journal-basic-type.html">Basic Type</a> </li>
+                                    <li class="menu-item"> <a href="/journal-buttons.html">Buttons</a> </li>
+                                    <li class="menu-item"> <a href="/journal-blockquotes.html">Blockquotes</a> </li>
+                                    <li class="menu-item"> <a href="/journal-font-icons.html">Font Icons</a> </li>
+                                </ul>
+                            </li>
+                            <li class=" "> <a href="/journal-contact.html">Contact</a> </li>
+                        </ul>
+                    </div>
+                    <div class="menu-sidebar">
+                        <div class="sidebar-widget widget_search">
+                            <h3 class="sidebar-header">Search Title</h3>
+                            <form action="journal-index.html" id="searchform" method="get" name="searchform">
+                                <div class="input-group">
+                                    <input class="form-control" id="s" name="s" placeholder="Search" type="text" value=""> <span class="input-group-btn">
+                                    <button class="btn btn-primary" id="searchsubmit" type="submit" value="Search">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span> </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="content" role="main">
+        <article>
+            <section class="section">
+                <div class="container">
+                    <div class="row element-top-50 element-bottom-50">
+                        <div class="col-md-8 col-md-offset-2 blog-list-layout-normal">
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to Put Your Head on My Shoulders">Put Your Head on My Shoulders</a>
+        </h2>
+                                    <p class="lead">Weaseling out of things is important to learn. It's what separates us from the animals…except the weasel. You know, the one with all the well meaning rules that don't work out in real life, uh, Christianity.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a href="journal-post.html" class="figure-image"> <img alt="Put Your Head on My Shoulders" src="assets/images/journal/p111.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>Lisa, vampires are make-believe, like elves, gremlins, and <strong>Eskimos</strong>. We started out like Romeo and Juliet, but it ended up in tragedy. Attempted murder? Now honestly, what is that? Do they give a Nobel
+                                        <strong>Prize</strong> for attempted chemistry? Get ready, skanks! It&#8217;s time for the truth train! Books are useless! I only ever read one book, &#8220;To Kill A Mockingbird,&#8221; and it gave me absolutely
+                                        no insight on how to kill mockingbirds! Sure it taught me not to judge a man by the color of his skin…but what good does *that* do me?</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> September 25, 2014
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">christos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-index.html" rel="tag">Fashion</a>, <a href="journal-index.html" rel="tag">Tech</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on Put Your Head on My Shoulders">3 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to A Flight to Remember">A Flight to Remember</a>
+        </h2>
+                                    <p class="lead">No children have ever meddled with the Republican Party and lived to tell about it. The lesson is, never try. Oh, so they have Internet on computers now.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a class="figure-image" href="journal-post.html"> <img alt="A Flight to Remember" src="assets/images/journal/p041.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>That sounded like a prayer. A prayer in a public school. God has no place within these walls, just like facts don&#8217;t have a place within an organized <strong>religion</strong>. Son, a woman is like a beer. They
+                                        smell good, they look good, you&#8217;d step over your own mother just to get one! But you can&#8217;t stop at one. You wanna drink another woman! The Internet King? I wonder if he could provide faster nudity.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> September 25, 2014
+        </span> <span class="post-author"><i class="icon-head"></i>
+            <a href="journal-blog.html">Proistakis Manos</a>
+        </span> <span class="post-category"><i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Education</a>, <a href="journal-blog.html" rel="tag">Travel</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on A Flight to Remember">2 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to The Beast with a Billion Backs">The Beast with a Billion Backs</a>
+        </h2>
+                                    <p class="lead">Good news, everyone! There's a report on TV with some very bad news! Actually, that's still true. We'll need to have a look inside you with this camera.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a class="figure-image" href="journal-post.html"> <img alt="The Beast with a Billion Backs" src="assets/images/journal/p011.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>There&#8217;s one way and only one way to determine if an animal is <strong>intelligent</strong>. Dissect its brain! It&#8217;s a T. It goes &#8220;tuh&#8221;. Anyone who laughs is a communist! Morbo will now introduce
+                                        tonight&#8217;s candidates&hellip; Morbo&#8217;s good friend, Richard Nixon.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> January 5, 2015
+        </span> <span class="post-author"><i class="icon-head"></i>
+            <a href="journal-blog.html">Proistakis Manos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Fashion</a>, <a href="journal-blog.html" rel="tag">Food &amp; Health</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on The Beast with a Billion Backs">3 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-blog.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <div class="post-body">
+                                    <blockquote class="text-left">
+                                        <p>Good morning, oh in case i don't see you, good afternoon, good evening and goodnight. excuse me, i'd like to ask you a few questions. we're going for a ride on the information super highway. Here she comes to wreck
+                                            the day. here she comes to wreck the day. alrighty then kinda hot in these rhinos. we're going for a ride on the information super highway.</p>
+                                        <footer> Cold Warriors </footer>
+                                    </blockquote>
+                                </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to The Ugly Side of the Moon">The Ugly Side of the Moon</a></h2>
+                                    <p class="lead">The Leaked Secret to Apollo Discovered</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a class="figure-image" href="journal-post.html"> <img alt="The Ugly Side of the Moon" src="assets/images/journal/p021.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>Books are useless! I only ever read one book, &#8220;To Kill A Mockingbird,&#8221; and it gave me <strong>absolutely</strong> no insight on how to kill mockingbirds! Sure it taught me not to judge a man by the color
+                                        of his skin…but what good does *that* do me? I&#8217;m a Spalding Gray in a Rick Dees world. You don&#8217;t win friends with salad. The Internet King? I wonder if he could provide faster nudity.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> January 25, 2015
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">proistak</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Food &amp; Health</a>,
+            <a href="journal-blog.html" rel="tag">Travel</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on The Ugly Side of the Moon">2 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post-189 post type-post status-publish format-gallery has-post-thumbnail hentry category-inspirational tag-assault tag-discovery tag-lucky" id="post-189">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title"><a href="http://lambda.oxygenna.com/journal/2014/08/25/the-birth-of-lies/" rel="bookmark" title="Permalink to The Birth of Lies">The Birth of Lies</a></h2>
+                                    <p class="lead">You want a guarantee, buy a toaster</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="flexslider flex-controls-bottom" data-flex-animation="slide" data-flex-captionhorizontal="left" data-flex-controls="show" data-flex-controlsalign="center" data-flex-controlsposition="inside" data-flex-controlsvertical="bottom"
+                                    data-flex-directions="hide" data-flex-duration="600" data-flex-sliderdirection="horizontal" data-flex-slideshow="true" data-flex-speed="7000" id="flexslider-80">
+                                        <ul class="slides">
+                                            <li>
+                                                <figure> <img alt="p06" src="assets/images/journal/p061.jpg"> </figure>
+                                            </li>
+                                            <li>
+                                                <figure> <img alt="p07" src="assets/images/journal/p071.jpg"> </figure>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>Yes! I am a citizen! Now which way to the welfare <strong>office</strong>? I&#8217;m kidding, I&#8217;m kidding. I work, I work. Bart, with $10,000 we&#8217;d be millionaires! We could buy all kinds of useful things
+                                        like…love!</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> December 25, 2014
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">Proistakis Manos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Inspirational</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on The Birth of Lies">2 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to Where No Fan Has Gone Before">Where No Fan Has Gone Before</a>
+        </h2>
+                                    <p class="lead">I am the last of my species, and I know how that weighs on the heart so don't lie to me! Stop talking, brain thinking. Hush. You know when grown-ups tell you 'everything's going to be fine' and you think they're probably
+                                        lying to make you feel better?</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a class="figure-image" href="journal-post.html"> <img alt="Where No Fan Has Gone Before" src="assets/images/journal/p101.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>Father Christmas. <strong>Santa Claus</strong>. Or as I&#8217;ve always known him: Jeff. You hate me; you want to kill me! Well, go on! Kill me! KILL ME! The way I see it, every life is a pile of good things and bad
+                                        things.&hellip;hey.&hellip;the good things don&#8217;t always soften the bad things; but vice-versa the bad things don&#8217;t necessarily spoil the good things and make them unimportant. Saving the world with meals
+                                        on wheels.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> October 12, 2014
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">christos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Education</a>, <a href="journal-blog.html" rel="tag">Inspirational</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on Where No Fan Has Gone Before">2 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-blog.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to The Cyber House Rules">The Cyber House Rules</a>
+        </h2>
+                                    <p class="lead">What could possibly go wrong? Aw, you're all Mr. Grumpy Face today. They're not aliens, they're Earth…liens! Saving the world with meals on wheels.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="video-wrapper feature-video">
+                                        <iframe frameborder="0" height="658" src="//player.vimeo.com/video/105438077" title="breathe" width="1170"></iframe>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>Super <strong>squeaky</strong> bum time! You hit me with a cricket bat. You&#8217;ve swallowed a planet! You know how I sometimes have really brilliant ideas? Annihilate? No. No violence. I won&#8217;t stand for it.
+                                        Not now, not ever, do you understand me?! I&#8217;m the Doctor, the Oncoming Storm &#8211; and you basically meant beat them in a football match, didn&#8217;t you?</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> November 9, 2014
+        </span> <span class="post-author"><i class="icon-head"></i>
+            <a href="journal-blog.html">christos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Education</a>,
+            <a href="journal-blog.html" rel="tag">Fashion</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on The Cyber House Rules">1 comment</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to The Day the Earth Stood Stupid">The Day the Earth Stood Stupid</a>
+        </h2>
+                                    <p class="lead">They're not aliens, they're Earth…liens! They're not aliens, they're Earth…liens! Stop talking, brain thinking. Hush.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="figure fade-in text-center figcaption-middle">
+                                        <a class="figure-image" href="journal-post.html"> <img alt="The Day the Earth Stood Stupid" src="assets/images/journal/p091.jpg">
+                                            <div class="figure-overlay">
+                                                <div class="figure-overlay-container">
+                                                    <div class="figure-caption"> <span class="figure-overlay-icons">
+                                <i class="icon-link"></i>
+                            </span> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>All I&#8217;ve got to do is pass as an ordinary <strong>human</strong> being. Simple. What could possibly go wrong? I hate yogurt. It&#8217;s just stuff with bits in. Sorry, checking all the water in this area; there&#8217;s
+                                        an escaped fish.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> July 25, 2014
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">christos</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Travel</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on The Day the Earth Stood Stupid">3 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <article class="post">
+                                <header class="post-head small-screen-center">
+                                    <h2 class="post-title">
+            <a href="journal-post.html" rel="bookmark" title="Permalink to Fry Am the Egg Man">Fry Am the Egg Man</a>
+        </h2>
+                                    <p class="lead">Stop talking, brain thinking. Hush. Heh-haa! Super squeaky bum time! Father Christmas. Santa Claus. Or as I've always known him.</p>
+                                </header>
+                                <div class="post-media">
+                                    <div class="flexslider flex-controls-bottom" data-flex-animation="slide" data-flex-captionhorizontal="left" data-flex-controls="show" data-flex-controlsalign="center" data-flex-controlsposition="inside" data-flex-controlsvertical="bottom"
+                                    data-flex-directions="hide" data-flex-duration="600" data-flex-sliderdirection="horizontal" data-flex-slideshow="true" data-flex-speed="7000" id="flexslider-28">
+                                        <ul class="slides">
+                                            <li>
+                                                <figure> <img alt="p08" src="assets/images/journal/p081.jpg"> </figure>
+                                            </li>
+                                            <li>
+                                                <figure> <img alt="p11" src="assets/images/journal/p111.jpg"> </figure>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="post-body">
+                                    <p>I hate yogurt. It&#8217;s just stuff with bits in. Sorry, checking all the water in this area; there&#8217;s an escaped <strong>fish</strong>. Saving the world with meals on wheels. Stop talking, brain thinking. Hush.
+                                        Annihilate? No. No violence. I won&#8217;t stand for it. Not now, not ever, do you understand me?! I&#8217;m the Doctor, the Oncoming Storm &#8211; and you basically meant beat them in a <strong>football</strong>                                        match, didn&#8217;t you? The way I see it, every life is a pile of good things and bad things.…hey.…the good things don&#8217;t always soften the bad things; but vice-versa the bad things don&#8217;t necessarily
+                                        spoil the good things and make them unimportant.</p>
+                                </div>
+                                <div class="post-details"> <span class="post-date">
+            <i class="icon-clock"></i> February 26, 2015
+        </span> <span class="post-author">
+            <i class="icon-head"></i>
+            <a href="journal-blog.html">Langan John</a>
+        </span> <span class="post-category">
+            <i class="icon-clipboard"></i>
+            <a href="journal-blog.html" rel="tag">Inspirational</a>
+        </span> <span class="post-link">
+            <i class="icon-speech-bubble"></i>
+            <a href="#" title="Comment on Fry Am the Egg Man">2 comments</a>
+        </span> </div>
+                                <div class="small-screen-center post-more"> <a class="post-more-link btn btn-primary" href="journal-post.html">read more</a> </div>
+                            </article>
+                            <nav id="nav-below" class="post-navigation padded">
+                                <ul class="pager">
+                                    <li class="previous">
+                                        <a href="#" class="btn btn-primary btn-icon btn-icon-left"> <i class="fa fa-angle-left"></i> Previous </a>
+                                    </li>
+                                    <li class="next"></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer id="footer">
+            <section class="section">
+                <div class="container">
+                    <div class="row element-top-40 element-bottom-40 footer-columns-4">
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_text" id="text-2">
+                                <h3 class="sidebar-header">About Us</h3>
+                                <div class="textwidget">
+                                    <p>Create stunning pages with our <strong>powerful</strong> admin panel. Functionality and usability combine to let you <strong>design</strong> your pages without any coding.</p>Get <strong>Lambda</strong> and start right
+                                    away. </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_recent_entries">
+                                <h3 class="sidebar-header">Recent posts</h3>
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="Put Your Head on My Shoulders"> <img alt="p11" height="150" src="assets/images/journal/p111-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="Put Your Head on My Shoulders">Put Your Head on My
+                                Shoulders</a> <small class="post-date">September 25, 2014</small> </li>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="A Flight to Remember"> <img alt="p041" height="150" src="assets/images/journal/p041-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="A Flight to Remember">A Flight to Remember</a> <small class="post-date">September 25, 2014</small> </li>
+                                    <li class="clearfix">
+                                        <div class="post-icon">
+                                            <a href="journal-post.html" title="The Beast with a Billion Backs"> <img alt="p01" height="150" src="assets/images/journal/p011-150x150.jpg" width="150"> </a>
+                                        </div> <a href="journal-post.html" title="The Beast with a Billion Backs">The Beast with a Billion
+                                Backs</a> <small class="post-date">September 25, 2014</small> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_categories">
+                                <h3 class="sidebar-header">Categories</h3>
+                                <ul>
+                                    <li> <a href="journal-index.html">Education</a> </li>
+                                    <li> <a href="journal-index.html">Fashion</a> </li>
+                                    <li> <a href="journal-index.html">Food &amp; Health</a> </li>
+                                    <li> <a href="journal-index.html">Inspirational</a> </li>
+                                    <li> <a href="journal-index.html">Tech</a> </li>
+                                    <li> <a href="journal-index.html">Travel</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="sidebar-widget widget_archive" id="archives-4">
+                                <h3 class="sidebar-header">Archives</h3>
+                                <ul>
+                                    <li> <a href='journal-index.html'>September 2014</a> </li>
+                                    <li> <a href='journal-index.html'>August 2014</a> </li>
+                                    <li> <a href='journal-index.html'>July 2014</a> </li>
+                                    <li> <a href='journal-index.html'>June 2014</a> </li>
+                                    <li> <a href='journal-index.html'>May 2014</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section subfooter">
+                <div class="container">
+                    <div class="row element-top-10 element-bottom-10 footer-columns-2">
+                        <div class="col-sm-6">
+                            <div class="sidebar-widget widget_text">
+                                <div class="textwidget"> Copyright © 2015 - Lamda Wordpress theme </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="sidebar-widget widget_social">
+                                <ul class="unstyled inline social-icons social-simple social-normal">
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-linkedin"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lambdahtml.oxygenna.com"> <i class="fa fa-dribbble"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <a class="go-top go-top-circle" href="javascript:void(0)"> <i class="fa fa-angle-up"></i> </a>
+    <script type="text/javascript">
+        var oxyThemeData = {
+            navbarHeight: 120,
+            navbarScrolled: 120,
+            navbarScrolledPoint: 62,
+            menuClose: 'off',
+            scrollFinishedMessage: 'No more items to load.',
+            hoverMenu:
+            {
+                hoverActive: false,
+                hoverDelay: 200,
+                hoverFadeDelay: 200
+            },
+            siteLoader: 'on'
+        };
+    </script>
+    <script src="assets/js/theme.min.js"></script>
+    <!-- load contact form js -->
+    <script src="assets/js/contact.min.js"></script>
+</body>
+
+</html>
