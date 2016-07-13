@@ -1475,6 +1475,10 @@ hr {
   clip: auto;
 }
 
+#masthead div div.navbar-header a.navbar-brand span.small {color:#FFFFFF;}
+
+#masthead.navbar-scrolled div div.navbar-header a.navbar-brand span.small {color:#666666;}
+
 [role="button"] {
   cursor: pointer;
 }
