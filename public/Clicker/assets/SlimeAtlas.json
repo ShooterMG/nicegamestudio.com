@@ -1,0 +1,115 @@
+{
+	"frames": {
+		"SlimeBody1": {
+			"frame": {
+				"h": 177,
+				"w": 302,
+				"x": 0,
+				"y": 0
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 177,
+				"w": 302
+			},
+			"spriteSourceSize": {
+				"h": 177,
+				"w": 302,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"HurtEye": {
+			"frame": {
+				"h": 60,
+				"w": 88,
+				"x": 152,
+				"y": 177
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 60,
+				"w": 88
+			},
+			"spriteSourceSize": {
+				"h": 60,
+				"w": 88,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"SlimeEyes1": {
+			"frame": {
+				"h": 56,
+				"w": 152,
+				"x": 0,
+				"y": 177
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 56,
+				"w": 152
+			},
+			"spriteSourceSize": {
+				"h": 56,
+				"w": 152,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"SlimeMouth1": {
+			"frame": {
+				"h": 8,
+				"w": 33,
+				"x": 0,
+				"y": 271
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 8,
+				"w": 33
+			},
+			"spriteSourceSize": {
+				"h": 8,
+				"w": 33,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"slimehurtmouth": {
+			"frame": {
+				"h": 38,
+				"w": 121,
+				"x": 0,
+				"y": 233
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 38,
+				"w": 121
+			},
+			"spriteSourceSize": {
+				"h": 38,
+				"w": 121,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		}
+	},
+	"meta": {
+		"app": "Spriter",
+		"format": "RGBA8888",
+		"image": "SlimeAtlas",
+		"scale": 1,
+		"size": {
+			"h": 302,
+			"w": 302
+		},
+		"version": "r7"
+	}
+}

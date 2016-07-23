@@ -1,0 +1,6 @@
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\bin\Test.dll.config
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\bin\Test.dll
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\bin\Test.pdb
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\obj\Debug\Test.dll
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\obj\Debug\Test.pdb
+C:\Users\Ben\Downloads\Spriter-Player-for-Phaser-master\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache

@@ -1,0 +1,658 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 30,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 7
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 15
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 22
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 30
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -137,
+										"y": 110
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"scale_x": 0.686469,
+										"scale_y": 1.294944,
+										"x": -90.656766,
+										"y": 162.352528
+									},
+									"spin": 0,
+									"time": 15
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -137,
+										"y": 110
+									},
+									"spin": 0,
+									"time": 30
+								}
+							],
+							"name": "SlimeBody1"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 355.9622893790229,
+										"file": 0,
+										"folder": 1,
+										"scale_y": 0.8376370753338948,
+										"x": -88.64593429815203,
+										"y": 49.8492641095118
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 354.1073096519687,
+										"file": 0,
+										"folder": 1,
+										"scale_y": 0.9999999999999999,
+										"x": -77.39999999999999,
+										"y": 82
+									},
+									"time": 7
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_y": 1.1842105263157898,
+										"x": -80,
+										"y": 98.40789473684211
+									},
+									"time": 15
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 8.86119462500426,
+										"file": 0,
+										"folder": 1,
+										"scale_y": 1.0000000000000002,
+										"x": -91.59999999999997,
+										"y": 53
+									},
+									"spin": -1,
+									"time": 22
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 358.10138762934116,
+										"file": 0,
+										"folder": 1,
+										"scale_x": 1.000000000000002,
+										"scale_y": 0.8413636981863608,
+										"x": -88.29695128925748,
+										"y": 48.04196944073128
+									},
+									"spin": -1,
+									"time": 30
+								}
+							],
+							"name": "SlimeEyes1"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 2,
+										"x": -30,
+										"y": -17
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 2,
+										"x": -25,
+										"y": 13
+									},
+									"spin": 0,
+									"time": 15
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 2,
+										"x": -30,
+										"y": -17
+									},
+									"spin": 0,
+									"time": 30
+								}
+							],
+							"name": "SlimeMouth1"
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 24,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 12
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 24
+							}
+						]
+					},
+					"name": "hurt",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -137,
+										"y": 110
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 349.44504328930907,
+										"file": 0,
+										"folder": 0,
+										"scale_x": 0.6677995772295894,
+										"scale_y": 1.531853085777178,
+										"x": -43.363904026961066,
+										"y": 220.39378421906105
+									},
+									"time": 12
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -137,
+										"y": 110
+									},
+									"spin": 0,
+									"time": 24
+								}
+							],
+							"name": "SlimeBody1"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 2,
+										"x": -61,
+										"y": 3
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 345.4110812671254,
+										"file": 1,
+										"folder": 2,
+										"scale_x": 1.0000000000000044,
+										"scale_y": 1.680960267497341,
+										"x": -44.39641199778435,
+										"y": 56.3716802190388
+									},
+									"time": 12
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 1,
+										"folder": 2,
+										"x": -61,
+										"y": 3
+									},
+									"spin": 0,
+									"time": 24
+								}
+							],
+							"name": "slimehurtmouth"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 84.74895882323369,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.19662921348314608,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 0.5777257979848862,
+										"scale_y": 1.0000000000000004,
+										"x": -37.696629213483156,
+										"y": 59.01639344262297
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 84.74895882323369,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.19662921348314608,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 1.6854930116505842,
+										"scale_y": 1.0000000000000016,
+										"x": -37.69662921348316,
+										"y": 70.01639344262298
+									},
+									"spin": 0,
+									"time": 12
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 84.74895882323369,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.19662921348314608,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 0.5777257979848862,
+										"scale_y": 1.0000000000000004,
+										"x": -37.696629213483156,
+										"y": 59.01639344262297
+									},
+									"spin": 0,
+									"time": 24
+								}
+							],
+							"name": "HurtEye"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 48.752260148201685,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.20786516853932585,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 0.6276849995910374,
+										"scale_y": 0.9999999999999986,
+										"x": 36.29213483146066,
+										"y": 52.016393442622956
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 48.752260148201685,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.20786516853932585,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 1.744304263655618,
+										"scale_y": 1.0000000000000098,
+										"x": 47.29213483146066,
+										"y": 62.01639344262297
+									},
+									"spin": 0,
+									"time": 12
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 48.752260148201685,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.20786516853932585,
+										"pivot_y": 0.48360655737704916,
+										"scale_x": 0.6276849995910374,
+										"scale_y": 0.9999999999999986,
+										"x": 36.29213483146066,
+										"y": 52.016393442622956
+									},
+									"spin": 0,
+									"time": 24
+								}
+							],
+							"name": "HurtEye_000"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "blob",
+			"obj_info": []
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 177,
+					"id": 0,
+					"name": "body/SlimeBody1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 302
+				}
+			],
+			"id": 0,
+			"name": "body"
+		},
+		{
+			"file": [
+				{
+					"height": 56,
+					"id": 0,
+					"name": "eyes/SlimeEyes1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 152
+				},
+				{
+					"height": 60,
+					"id": 1,
+					"name": "eyes/HurtEye.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 88
+				}
+			],
+			"id": 1,
+			"name": "eyes"
+		},
+		{
+			"file": [
+				{
+					"height": 8,
+					"id": 0,
+					"name": "mouth/SlimeMouth1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 33
+				},
+				{
+					"height": 38,
+					"id": 1,
+					"name": "mouth/slimehurtmouth.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 121
+				}
+			],
+			"id": 2,
+			"name": "mouth"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r7",
+	"scon_version": "1.0"
+}
